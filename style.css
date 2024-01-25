@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.herosection{
+ background-image: url(hero.jpg);
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+height: 70vh;
+position: relative;
+
+}
+svg{
+    fill: #f4f4f4;
+    display: none;
+}
+
+.nav{
+    display:flex;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    margin-right: 170px;
+
+}
+.logo{
+    font-size: 20px;
+    padding-left: 140px;
+}
+
+.nav_item {
+
+    margin-right: 200px;
+    
+}
+.nav_item a{
+    color: #f4f4f4;
+    text-decoration: none;
+    padding-left: 40px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+   
+}
+.text{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 350px;
+    letter-spacing: 2px;
+
+}
+.aboutus{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+ 
+
+    
+}
+.about_image img{
+    margin-left: 140px;
+    width: 540px;
+background-position: center;
+box-shadow: 0 0 23px black ;
+
+
+}
+.aboutus_text{
+    margin-left: 120px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+   
+.service{
+    background-color: #632323 ;
+    margin-top: 50px;
+    
+}
+.service h3{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    display: flex;
+padding: 70px ;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+ 
+}
+.mini_card{
+    border: 1px solid#f4f4f4;;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+    box-sizing: border-box;
+    width: 27%;
+    height: 200px;
+    float: right;
+    margin-left: 15px;
+
+}
+.mini_card h4{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mini_card p{
+    color: #f4f4f4;
+    opacity: 0.4;
+}
+.mini_card button{
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid #f4f4f4;
+    padding: 15px;
+    font-size: 12px;
+    color:#f4f4f4;
+    
+}
+button:hover{
+    background-color: #fff;
+    color: #333;
+}
+.intructors{
+    background-color: #f4f4f4;
+    height: auto;
+    padding: 25px;
+
+}
+.intructors h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.maincard{
+    display: flex;
+     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+} 
+.info_card{
+    width: 30%;
+box-sizing: border-box;
+border: 1px solid white;
+margin-left: 30px;
+box-shadow: 0 0 10px black; 
+border-radius: 10px;
+
+}
+.info_card img {
+    width: 100%;
+    height:auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+    background-color: #fff;
+    }
+.description{
+    text-align: center;
+background-size: cover;
+
+}
+.price_section{
+    padding:10px;
+    margin-top: 50px;
+}
+.price_section  h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.price_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.price_info{
+    box-sizing: border-box;
+    box-shadow: 0 0 25px #898787;
+    width: 30%;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    border-radius: 15px;
+}
+.price_info h3{
+    color: #ff4500;
+    font-weight: 800;
+    font-size:30px ;
+}
+.price_info h4{
+    font-size: 28px;
+}
+.price_info:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+hr{
+    opacity: 0.3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contact{
+background-color:#f4f4f4;
+justify-content: center;
+text-align: center;
+padding: 10px;
+margin-top: 70px;
+}
+input , textarea {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-style: none;
+
+}
+textarea{
+    height:170px ;
+}
+ .contact button{
+    width: 50%;
+    background-color: #5cb85c;
+    border-style: none;
+    height: 40px;
+    color: #f4f4f4;
+}
+input,textarea:hover{
+    border-color: #333;
+}
+@media (max-width:480px) {
+
+    body{
+        margin: 0;
+        width: 100%;
+    }
+    .nav{
+margin-right: 40px; 
+padding-top: 15px;
+padding-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    position: static;
+
+    
+
+}
+.logo{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* width:100%; */
+
+}
+
+    .nav_item a{
+        display: none;
+    }
+    svg{
+        display: block;
+        fill: #fff;
+        /* margin-left: 80px; */
+        width: 30px;
+        height: 30px;
+        
+        
+
+    }
+    .text{
+        padding-top: 15px;
+    }
+    .text h1 {
+        text-align: center;
+        font-size: 56px;
+
+    
+    }
+    .aboutus{
+    flex-direction: column
+    }
+    .about_image img{
+         margin-left: 41px;
+         text-align: center;
+           width: 400px;
+            box-shadow:0 0 25px;
+   
+}
+.aboutus_text{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 21px;}
+
+
+    .card{
+        flex-direction: column;
+    padding: 70px ;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.mini_card{
+    border: 1px solid#f4f4f4;;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 15px;}
+
+    .maincard{
+       flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    } 
+    .info_card{
+        width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 30px;
+    box-shadow: 0 0 10px black; 
+    border-radius: 10px;
+}
+.price_box {
+flex-direction: column;
+    justify-content: center;}
+    
+    .price_info{
+        box-sizing: border-box;
+        box-shadow: 0 0 25px #898787;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+        height: auto;
+        border-radius: 15px;}
+    }
